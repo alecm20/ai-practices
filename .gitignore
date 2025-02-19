@@ -1,0 +1,5 @@
+examples/knowledge-base/backend/lancedb_data/
+
+**/node_modules/
+**/__pycache__/
+**/.env
