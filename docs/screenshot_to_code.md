@@ -140,7 +140,7 @@ completions = await asyncio.gather(*tasks, return_exceptions=True)
 
 完整的提示语在项目中可以找到，我们做个替换，下面就是完整的prompt_messages内容。
 
-```json
+```python
 [
   {
     "role": "system",
@@ -185,7 +185,8 @@ completions = await asyncio.gather(*tasks, return_exceptions=True)
 
 提示语翻译成中文：
 
-```json
+```python
+
 你是一名专业的 React/Tailwind 开发人员
 	•	不要在代码中添加类似 <!-- Add other navigation links as needed --> 或 <!-- ... other news items ... --> 的注释来代替完整的代码，请编写完整代码。
 	•	如果需要重复元素，例如有 15 个项目，代码中必须包含 15 个项目。不要留类似 <!-- Repeat for each news item --> 这样的注释，否则会导致问题。
@@ -223,7 +224,7 @@ completions = await asyncio.gather(*tasks, return_exceptions=True)
 
 下面这个是使用 Node.js 版本的  OpenAI SDK 发起 API 调用的代码，messages 内容就是上面的prompt_messages。
 
-```json
+```javascript
 async function screenshot2code() {
   // @ts-ignore
   const stream = await openai.chat.completions.create({
@@ -259,7 +260,7 @@ screenshot-to-code 这个项目返回的网页代码渲染结果：
 
 这个占位符图片是这样的：
 
-```json
+```javascript
 https://placehold.co/1400x200
 ```
 
