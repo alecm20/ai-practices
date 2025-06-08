@@ -2,6 +2,5 @@
 
 - [基于RAG的大模型知识库构建](./docs/knowledge.md)
 
-- [结合知识库搭建客服机器人-待更新](./docs/chatbot.md)
-
-- [通过 function calling 让大模型调用工具-待更新](./docs/function_calling.md)
+- [66.5k star 项目screenshot-to-code 原理分析
+](./docs/screenshot_to_code.md)
